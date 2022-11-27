@@ -17,35 +17,18 @@ body {
     font-family: mainFont;
 }
 
-.heading {
+.sheading {
     font-family: headingFont;
 }
 
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-    border-radius: 15px;
-}
-
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    border-radius: 15px;
-}
-
-.topnav a:hover {
-    background-color: rgb(177, 224, 235);
-    color: black;
+.cb {
+    width: 256px;
+    height: 64px;
     font-weight: bolder;
-}
-  
-.topnav a.active {
-    background-color: rgb(1, 208, 255);
-    color: black;
+    font-size: larger;
+    border-radius: 15px;
+    background-color: #333;
+    color: #fff;
 }
 
 .cbox {
@@ -168,4 +151,3 @@ a:active {
         background-color: transparent;
         text-decoration: none;
 }
-
